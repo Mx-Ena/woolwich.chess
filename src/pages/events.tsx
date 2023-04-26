@@ -103,7 +103,7 @@ function classNames(...classes: any[]) {
 
 export default function Events() {
   return (
-    <div>
+    <div className='max-w-5xl flex flex-col w-full mx-auto mt-32'>
       <div className="relative grid grid-cols-1 gap-x-14 md:grid-cols-2">
         <button
           type="button"
