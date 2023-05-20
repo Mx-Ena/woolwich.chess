@@ -1,4 +1,3 @@
-
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 
 const months = [
@@ -105,11 +104,10 @@ function classNames(...classes: any[]) {
 export default function Events() {
   return (
     <div>
-     
         <a href='/'>
         <button>Read</button>
         </a>
-    <div className='max-w-5xl flex flex-col w-full mx-auto mt-32'>
+     <div className='max-w-5xl flex flex-col w-full mx-auto mt-32'>
       <div className="relative grid grid-cols-1 gap-x-14 md:grid-cols-2">
         <button
           type="button"
