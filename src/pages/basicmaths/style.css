@@ -1,0 +1,30 @@
+mimo.html
+style.css
+
+.container {
+display: grid;
+grid-gap: 5px;
+grid-template-areas:
+  "header header header header"
+  "sidebar main main main"
+  "sidebar photo photo button"
+  "footer footer footer footer";
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.item {
+ background-color: #96BCEF;
+ text-align: center;
+ padding: 20px;
+ border-radius: 5px;
+ max-width: 100%;
+}
+
+.header {
+ grid-area: header;
+}
+
+.sidebar {
+ grid-area: sidebar;
+}
